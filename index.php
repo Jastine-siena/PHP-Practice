@@ -89,16 +89,16 @@ echo "<br>";
 //loop
 //4 types of loop: while loop, do-while loop, for loop, foreach loop
 $x = 1;
-// while ($x <= 10){
-//     echo "Count to: ". $x . "<br>";
-//     $x++;
-// }
+while ($x <= 10){
+    echo "Count to: ". $x . "<br>";
+    $x++;
+}
 
 //irurun nya muna yong do bago while
-// do{
-//     echo "bilang na to ay ".$x. "<br>";
-//     $x++;
-// }while($x <= 10);
+do{
+    echo "bilang na to ay ".$x. "<br>";
+    $x++;
+}while($x <= 10);
 
 //note: the diff between while is loopp agad unlike sa do-while na agawin muna yong do bago loop
 
